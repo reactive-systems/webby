@@ -26,14 +26,14 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<directory_watcher>, [">= 1.1.2"],["<= 1.4.1"])
-      s.add_runtime_dependency(%q<RedCloth>, ["~> 4.2"])
-      s.add_runtime_dependency(%q<hpricot>, ["~> 0.6"])
-      s.add_runtime_dependency(%q<launchy>, ["~> 0.3"])
-      s.add_runtime_dependency(%q<logging>, ["~> 0.9"])
-      s.add_runtime_dependency(%q<loquacious>, ["~> 1.3"])
-      s.add_runtime_dependency(%q<rake>, ["~> 0.8"])
-      s.add_runtime_dependency(%q<rspec>, ["~> 1.2"])
-      s.add_development_dependency(%q<bones>, ["~> 2.5"])
+      s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.9"])
+      s.add_runtime_dependency(%q<hpricot>, [">= 0.6.0"])
+      s.add_runtime_dependency(%q<launchy>, [">= 0.3.2"])
+      s.add_runtime_dependency(%q<logging>, [">= 0.9.7"])
+      s.add_runtime_dependency(%q<loquacious>, [">= 1.3.0"])
+      s.add_runtime_dependency(%q<rake>, [">= 0.8.4"])
+      s.add_runtime_dependency(%q<rspec>, [">= 1.2.2"])
+      s.add_development_dependency(%q<bones>, [">= 2.5.0"])
     else
       s.add_dependency(%q<directory_watcher>, [">= 1.1.2"])
       s.add_dependency(%q<hpricot>, [">= 0.6.0"])
