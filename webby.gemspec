@@ -29,7 +29,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<RedCloth>, [">= 4.2.9"])
       s.add_runtime_dependency(%q<hpricot>, [">= 0.6.0"])
       s.add_runtime_dependency(%q<launchy>, [">= 0.3.2"])
-      s.add_runtime_dependency(%q<logging>, [">= 0.9.7"])
+      s.add_runtime_dependency(%q<logging>, [">= 0.9.7"],["<= 1.8.2"])
       s.add_runtime_dependency(%q<loquacious>, [">= 1.3.0"])
       s.add_runtime_dependency(%q<rake>, [">= 0.8.4"])
       s.add_runtime_dependency(%q<rspec>, [">= 1.2.2"])
