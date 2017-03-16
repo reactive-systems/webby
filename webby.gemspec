@@ -31,7 +31,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<launchy>, [">= 0.3.2"])
       s.add_runtime_dependency(%q<logging>, [">= 0.9.7"],["<= 1.8.2"])
       s.add_runtime_dependency(%q<loquacious>, [">= 1.3.0"])
-      s.add_runtime_dependency(%q<rake>, [">= 0.8.4"])
+      s.add_runtime_dependency(%q<rake>, [">= 0.8.4"],["<=11.0.1"])
       s.add_runtime_dependency(%q<rspec>, [">= 1.2.2"])
       s.add_development_dependency(%q<bones>, [">= 2.5.0"])
     else
@@ -40,7 +40,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<launchy>, [">= 0.3.2"])
       s.add_dependency(%q<logging>, [">= 0.9.7"])
       s.add_dependency(%q<loquacious>, [">= 1.3.0"])
-      s.add_dependency(%q<rake>, [">= 0.8.4"])
+      s.add_dependency(%q<rake>, [">= 0.8.4"],["<=11.0.1"])
       s.add_dependency(%q<rspec>, [">= 1.2.2"])
       s.add_dependency(%q<bones>, [">= 2.5.0"])
     end
@@ -50,7 +50,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<launchy>, [">= 0.3.2"])
     s.add_dependency(%q<logging>, [">= 0.9.7"])
     s.add_dependency(%q<loquacious>, [">= 1.3.0"])
-    s.add_dependency(%q<rake>, [">= 0.8.4"])
+    s.add_dependency(%q<rake>, [">= 0.8.4"],["<=11.0.1"])
     s.add_dependency(%q<rspec>, [">= 1.2.2"])
     s.add_dependency(%q<bones>, [">= 2.5.0"])
   end
